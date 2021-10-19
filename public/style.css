@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ul, li {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+.messages {
+    width: 100%;
+    height: calc(100vh - 32px);
+    overflow: auto;
+}
+.messages li {
+    padding: 2px 8px;
+}
+.messages li .content {
+    margin: 0 0 0 4px;
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.textbox {
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    height: 32px;
+    background: #e2e2e2;
+}
